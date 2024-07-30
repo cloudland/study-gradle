@@ -1,0 +1,17 @@
+//name 'module-b'
+version '1.0.0-SNAPSHOT'
+
+// 设置模块独有的仓库
+//repositories {
+//    maven {
+//        name 'aliyun'
+//        url 'https://maven.aliyun.com/repository/public/'
+//    }
+//    mavenCentral()
+//}
+
+dependencies {
+
+    implementation 'cn.afterturn:easypoi-base:3.1.0'
+
+}
